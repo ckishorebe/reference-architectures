@@ -48,7 +48,7 @@ kind: PodDisruptionBudget
 metadata:
   name: aspnetapp-pdb
 spec:
-  minAvailable: 90%
+  minAvailable: 75%
   selector:
     matchLabels:
       app: aspnetapp
